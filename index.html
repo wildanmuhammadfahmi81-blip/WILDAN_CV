@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wildan Muhammad Fahmi</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- AOS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
+<!-- ICON -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- PARTICLE BACKGROUND -->
+<div id="particles-js"></div>
+
+<!-- NAVBAR -->
+<nav>
+  <h2>Wildan M Fahmi</h2>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#timeline">Experience</a></li>
+    <li><a href="#portfolio">Sertifikat</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-container">
+
+    <div class="hero-img">
+      <img src="poto_3x4_wildan.png" alt="Foto Wildan">
+    </div>
+
+    <div class="hero-text">
+      <h1>Wildan Muhammad Fahmi</h1>
+      <h3><span id="typing"></span></h3>
+      <a href="#contact" class="btn">Hubungi Saya</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" data-aos="fade-right">
+  <h2 class="section-title">Tentang Saya</h2>
+
+  <div class="about-container">
+    <div class="about-text">
+      <p>
+        Saya adalah seorang mahasiswa Informatika di UIN Siber Syekh Nurjati Cirebon jurusan informatika. Saya memiliki minat besar dalam pengembangan web dan desain UI/UX.
+      </p>
+
+      <p>
+        Saya terbiasa menggunakan HTML, CSS, PHP, dan MySQL untuk membangun aplikasi web.
+      </p>
+
+      <a href="_Curriculum Vitae.pdf" download class="btn">Download CV</a>
+    </div>
+
+    <div class="about-info">
+      <div class="info-card"><h4>Nama</h4><p>Wildan Muhammad Fahmi</p></div>
+      <div class="info-card"><h4>Pendidikan</h4><p>UIN Siber Syekh Nurjati Cirebon</p></div>
+      <div class="info-card"><h4>Jurusan</h4><p>Informatika</p></div>
+      <div class="info-card"><h4>Status</h4><p>Mahasiswa</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" data-aos="fade-left">
+  <h2 class="section-title">Skills</h2>
+
+  <div class="skill-bar">
+    <p>HTML</p>
+    <div class="bar"><div class="fill html"></div></div>
+
+    <p>CSS</p>
+    <div class="bar"><div class="fill css"></div></div>
+
+    <p>PHP</p>
+    <div class="bar"><div class="fill php"></div></div>
+
+    <p>MySQL</p>
+    <div class="bar"><div class="fill mysql"></div></div>
+  </div>
+</section>
+
+<!-- pengalaman -->
+<section id="timeline" data-aos="fade-right">
+  <h2 class="section-title">Pengalaman</h2>
+
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <h3>Project Website Mahasiswa</h3>
+        <p>Membuat aplikasi CRUD dengan PHP & MySQL</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <h3>UI/UX Design</h3>
+        <p>Mendesain tampilan modern menggunakan Figma</p>
+      </div>
+    </div>
+
+        <div class="timeline-item">
+      <div class="timeline-content">
+        <h3>Pengurus Pelita Intan Muda</h3>
+        <p>Departemen MSDMO</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <h3>Pengurus IMK</h3>
+        <p>Departemen Kominfo</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <h3>Tim Media Fakultas</h3>
+        <p>Copy wraiter</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Sertifikat -->
+
+<section id="portfolio" data-aos="zoom-in">
+  <h2 class="section-title">Sertifikat</h2>
+
+  <div class="portfolio-container">
+
+    <!-- SERTIFIKAT 1 -->
+    <div class="portfolio-card" onclick="openModal(this)">
+      <img src="sertif_pelatihan_BNSP.png" alt="Sertifikat 1">
+      <div class="overlay">
+        <h3>Pelatihan BNSP</h3>
+        <p>Conten Creator</p>
+      </div>
+    </div>
+
+    <!-- SERTIFIKAT 2 -->
+    <div class="portfolio-card" onclick="openModal(this)">
+      <img src="sertif_Coding_Camp.png" alt="Sertifikat 2" >
+      <div class="overlay">
+        <h3>Coding Camp</h3>
+        <p>Sofware Enginering</p>
+      </div>
+    </div>
+
+    <!-- SERTIFIKAT 3 -->
+    <div class="portfolio-card" onclick="openModal(this)">
+      <img src="Sertifikat OAB Wildan.jpeg" alt="Sertifikat 3">
+      <div class="overlay">
+        <h3>Orientasi Anggota Baru</h3>
+        <p>Ikatan Mahasiswa Kuningan (IMK)</p>
+      </div>
+    </div>
+
+    <!-- SERTIFIKAT 4 -->
+    <div class="portfolio-card" onclick="openModal(this)">  
+      <img src="sertif_BNSP_1.png" alt="Sertifikat 4">
+      <div class="overlay">
+        <h3>Orientasi Anggota Baru</h3>
+        <p>Ikatan Mahasiswa Kuningan (IMK)</p>
+      </div>
+
+  </div>
+</section>
+
+<section id="contact" data-aos="fade-up">
+  <h2 class="section-title">Contact Me</h2>
+
+  <div class="contact-wrapper">
+
+    <!-- KIRI (INFO) -->
+    <div class="contact-info">
+
+      <a href="mailto:wildanmuhammadfahmi81@gmail.com" class="contact-card">
+        <i class="fa-solid fa-envelope"></i>
+        <h3>Email</h3>
+        <p>wildanmuhammadfahmi81@gmail.com</p>
+      </a>
+
+      <a href="https://github.com/wildanmuhammadfahmi81-blip" target="_blank" class="contact-card">
+        <i class="fa-brands fa-github"></i>
+        <h3>GitHub</h3>
+        <p>wildanmuhammadfahmi81-blip</p>
+      </a>
+
+      <a href="https://instagram.com/wildanmfhm_" target="_blank" class="contact-card">
+        <i class="fa-brands fa-instagram"></i>
+        <h3>Instagram</h3>
+        <p>@wildanmfhm_</p>
+      </a>
+
+    </div>
+
+    <!-- KANAN (FORM) -->
+    <div class="contact-form">
+      <h3>Kirim Pesan</h3>
+
+      <p style="margin-bottom:20px; color:#94a3b8;">
+        Silakan kirim pesan jika ingin bekerja sama atau berdiskusi project 🚀
+      </p>
+
+      <input type="text" id="nama" placeholder="Nama Anda">
+      <input type="text" id="pesan" placeholder="Pesan Anda">
+
+      <button onclick="kirimWA()" class="btn">
+        <i class="fa-brands fa-whatsapp"></i> Kirim via WhatsApp
+      </button>
+
+      <div class="video-bg">
+      <video autoplay muted loop>
+        <source src="kicau_mania.mp4" type="video/mp4">
+      </video>
+    </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- SCRIPT -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+AOS.init({ duration: 1000 });
+</script>
+
+<script>
+function kirimWA(){
+  let nama = document.getElementById("nama").value;
+  let pesan = document.getElementById("pesan").value;
+
+  let url = "https://wa.me/6282119484482?text="
+    + "Halo Wildan,%0A"
+    + "Nama saya " + nama + "%0A"
+    + "" + pesan;
+
+  window.open(url, "_blank");
+}
+</script>
+
+<!-- TYPING -->
+<script>
+const text = ["Web Developer", "Freelancer", "Atlet Olahraga"];
+let i = 0, j = 0, currentText = "", isDeleting = false;
+
+function type() {
+  currentText = text[i];
+  document.getElementById("typing").innerHTML =
+    currentText.substring(0, j);
+
+  if (!isDeleting) {
+    j++;
+    if (j === currentText.length) {
+      isDeleting = true;
+      setTimeout(type, 1000);
+      return;
+    }
+  } else {
+    j--;
+    if (j === 0) {
+      isDeleting = false;
+      i = (i + 1) % text.length;
+    }
+  }
+
+  setTimeout(type, isDeleting ? 50 : 100);
+}
+type();
+</script>
+
+<!-- PARTICLES -->
+<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+<script>
+particlesJS("particles-js", {
+  particles: {
+    number: { value: 80 },
+    size: { value: 3 },
+    move: { speed: 2 },
+    line_linked: { enable: true }
+  }
+});
+</script>
+
+<div id="modal" onclick="closeModal()">
+  <img id="modal-img">
+</div>
+
+<script>
+function openModal(el){
+  document.getElementById("modal").style.display = "flex";
+  document.getElementById("modal-img").src = el.querySelector("img").src;
+}
+
+function closeModal(){
+  document.getElementById("modal").style.display = "none";
+}
+</script>
+
+</body>
+</html>
